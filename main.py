@@ -1,2 +1,5 @@
+from renderer import Renderer
+
 if __name__ == "__main__":
-    pass
+    r = Renderer()
+    r.start()
